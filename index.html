@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>CV Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/PERSONAL CV/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">QUIEN SOY</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" class="seleccionado" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <div class="contenido-header">
+                    <a href="https://wa.me/3245415912/?text=Te hablo por WhatsApp.">¿Un Café?
+                       <img src="img/whatsapp.png" alt="WhatsApp" />
+                    </a>
+                </div>
+                <h2><span>POSICIONAMIENTO MARCA VIRTUAL &</span> Desarrollo APPs WEB </h2>
+                <h5 class="descripcion">Experiencia en actualizacion de scripts a ultimas Versiones</h5>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- SECCION S E R V I C I O Ss -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">SERVICIOS DE SOFTWARE A LA MEDIDA</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>Desing</li>
+                </ul>
+                <p>Tu Negocio se merece pagina Web que enriquesca tu marca!</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Porgramación Moderna</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Scripts</li>
+                    <li>BDs</li>
+                    <li>WS</li>
+                </ul>
+                <p>Programación y logica experimentada para resultados unicos</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Posicionamiento SEO</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Google</li>
+                    <li>Redes</li>
+                    <li>VIP</li>
+                </ul>
+                <p>Te ayudamos a hacer crecer tu Marca Virtual tan alto como lo desees</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Alojamiento de Sitios</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Hosting</li>
+                    <li>Servers</li>
+                    <li>HTTPS</li>
+                </ul>
+                <p>La desición la tomamos Juntos! Te ayudamos a escoger la mejor opción</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseños Minimalistas</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>IA</li>
+                    <li>Graphics</li>
+                    <li>Marketing</li>
+                </ul>
+                <p>Páginas del siglo 22 con soporte IA</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Consultor Externo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Fix</li>
+                    <li>Machine</li>
+                    <li>Win</li>
+                </ul>
+                <p>Experiencia en soluciones a cualquier requerimiento de Sofwtare de Gestion empresarial y Financiera</p>
+            </div>
+        </div>
+    </section>
+
+     <!-- SECCION S O B R E M Ii -->
+     <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/personal.jpeg" alt="program_online">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Programando Exitos, Soy <span>Eduartd Acosta</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <h5>Experiencia en </h5>
+            <p>Instalador de dependencias y compilación de proyectos</p>
+            <p>Ejecutor de Pruebas y depuración del software</p>
+            <p>Documentador y soporte al cliente</p>
+            <p>Desarrollo - Implementación y despliegue del software</p>
+            <p>Brindar Mantenimiento y actualización del software</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+
+    <!-- DIV HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h2>HABILIDADES </h2>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Diseño Web </p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Lenguajaes Especializados</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos Relacionales</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Integración Webservices</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+        <div class="skill"><br>
+            <div class="info">
+                <h2>Algunas razones por las que es mejor contratar un desarrollador web</h2>
+            </div>
+        </div>
+        <div class="skill"><br>
+            <div class="info">
+                <h4><span class="lista"></span>Adaptabilidad al mercado</h4>
+                <h4><span class="lista"></span>Creatividad e innovación</h4>
+            </div>
+        </div>
+        <div class="skill"><br>
+            <div class="info">
+                <h4><span class="lista"></span>Flexibilidad adaptabilidad</h4>
+                <h4><span class="lista"></span>Calidad y rendimiento</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">EXPERIENCIA EN </h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="proyecto">
+                <div class="info">
+                    <h4>Construcción </h4>
+                    <p>Conexion con APIS - WS</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Posicionamiento WEB</h4>
+                    <p>Estrategias Marketing</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Desarrollo Front-End</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje y numero de contacto ..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Eduartd Scrints Copyright 2023</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
